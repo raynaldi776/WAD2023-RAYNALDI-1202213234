@@ -1,0 +1,71 @@
+body{
+    background-color: grey;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+header, section#Portofolio, section#Project, footer{
+    width: 800px;
+    margin: auto;
+    padding: 15px;
+}
+
+header, section#Portofolio, section#Project{
+    background-color: white;
+    border-bottom: 3px solid red;
+}
+
+section#Project h1, section#Portofolio h1{
+    margin-bottom: 10px;
+}
+
+section#Project h1, section#Portofolio h1{
+    text-align: center;
+    font-size: 32px;
+    background-color: aquamarine;
+    color: white;
+    padding: 10px;
+}
+
+section#Portofolio img{
+    width: 250px;
+    float: left;
+}
+
+header h1{
+    float: left;
+    font-size: 25x;
+    margin-top: 10px;
+    border-bottom: 10px solid grey;
+    width: 800px;
+}
+
+section#Project img{
+    width: 700px;
+    float: center;
+    padding: 10px;
+}
+
+footer{
+    background-color: black;
+}
+
+footer a{
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    background-color: green;
+    width: 200px;
+    margin: auto;
+    padding: 10px 0;
+}
+
+footer a:hover{
+    background-color: red;
+}
+
+.fix-container{
+    clear: both;
+}
